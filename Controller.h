@@ -4,15 +4,15 @@ using namespace std;
 
 class Controller {
 public:
-	void CAddGPU(string np, string nc, float pr, int t, int id, int year, float freq, float memor);
-	void CAddCPU(string np, string nc, float pr, int t, int id, int year, float freqv, float cores);
-	void CRemove(string name);
-	void CEdit(string np, string nc, float pr, int t, int y, int id);
-	void CShowAll();
+	void CaddPAINTINGS(int i, string a, float p, string t, string c);
+	void CaddSCULPTURES(int i, string a, float p, string m, float h);
+	void Cremove(string author);
+	void Cedit(int i, string a, int p);
+	void CshowAll();
 	///undo redo next
 
 
 protected:
-	ArtworksRepo myrepo;
+	ArtworksRepo repo;
 
 };
