@@ -142,17 +142,13 @@
     <ClCompile Include="Controller.cpp" />
     <ClCompile Include="Artwork.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Paintings.cpp" />
     <ClCompile Include="Repo.cpp" />
-    <ClCompile Include="Sculptures.cpp" />
     <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Controller.h" />
     <ClInclude Include="Artwork.h" />
-    <ClInclude Include="Paintings.h" />
     <ClInclude Include="Repo.h" />
-    <ClInclude Include="Sculptures.h" />
     <ClInclude Include="UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
