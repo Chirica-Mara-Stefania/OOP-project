@@ -8,7 +8,7 @@ public:
 	void CaddSCULPTURES(int i, string a, float p, string m, float h);
 	void Cremove(string author);
 	void Cedit(int i, string a, int p);
-	void CshowAll();
+	void Cshowall();
 	///undo redo next
 
 

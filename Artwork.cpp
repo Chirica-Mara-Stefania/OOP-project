@@ -17,7 +17,7 @@ Artwork::Artwork()
 }
 
 //Constructor
-Artwork::Artwork(int i, string a, int p)
+Artwork::Artwork(int i, string a, float p)
 {
 	this->id = i;
 	this->price = p;

@@ -16,7 +16,7 @@ protected:
 public:
 	//Constructors:
 	Artwork();
-	Artwork(int i, std::string a, int p);
+	Artwork(int i, std::string a, float p);
 
 	//Prototype methods:
 	inline void setID(int i) { this->id = i; }
